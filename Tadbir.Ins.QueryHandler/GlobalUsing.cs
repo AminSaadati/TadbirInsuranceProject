@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Tadbir.Ins.QueryHandler
-{
-    internal class GlobalUsing
-    {
-    }
-}
+﻿global using MediatR;
+global using Tadbir.Ins.Domain.Models;
+global using Vita.IDomainService.IService;
+global using Vita.Query.Handler;
+global using Vita.Shared.Result;
+global using Tadbir.Ins.Shared.Emums;

@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Tadbir.Ins.IDomainService
-{
-    internal class GlobalUsing
-    {
-    }
-}
+﻿global using Tadbir.Ins.Domain.Models;
+global using Vita.IDomainService.IService;
+ 
+ 

@@ -1,12 +1,4 @@
-﻿using FluentValidation;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Tadbir.Ins.Application.InsuranceRequestApp.Model;
-using Vita.Shared.Validation;
+﻿
 
 namespace Tadbir.Ins.Application.InsuranceRequestApp.Validation
 {

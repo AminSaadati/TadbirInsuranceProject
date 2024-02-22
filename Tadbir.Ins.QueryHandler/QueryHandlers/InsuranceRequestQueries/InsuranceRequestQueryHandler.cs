@@ -1,15 +1,4 @@
-﻿using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
-using Tadbir.Ins.Application.InsuranceRequestApp.Model;
-using Tadbir.Ins.Domain.Models;
-using Vita.IDomainService.IService;
-using Vita.Query.Handler;
-using Vita.Shared.Result;
+﻿
 
 namespace Tadbir.Ins.QueryHandler.QueryHandlers
 {

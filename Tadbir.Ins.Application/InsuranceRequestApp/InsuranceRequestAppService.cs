@@ -1,17 +1,5 @@
 ﻿
 
-using FluentValidation;
-using Mapster;
-using Microsoft.AspNetCore.Http;
-using Tadbir.Ins.Application.InsuranceRequestApp.Model;
-using Tadbir.Ins.Domain.Models;
-using Tadbir.Ins.IDomainService.IServices;
-using Vita.Application.CommandHandlers;
-using Vita.Application.Mapper;
-using Vita.IDomainService.IService;
-using Vita.Infrastructure.EmailProvider;
-using Vita.Persistence.UnitOfWork;
-using Vita.Shared.Result;
 
 namespace Tadbir.Ins.Application.InsuranceRequestApp
 {

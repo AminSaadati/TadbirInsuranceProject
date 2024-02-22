@@ -1,12 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Tadbir.Ins.Application
-{
-    internal class GlobalUsing
-    {
-    }
-}
+﻿global using Tadbir.Ins.Domain.Models;
+global using FluentValidation;
+global using Tadbir.Ins.Application.InsuranceRequestApp.Model;
+global using Vita.Shared.Validation;
+global using Vita.Application.Application;
+global using Vita.Shared.Result;
+global using Mapster;
+global using Microsoft.AspNetCore.Http;
+global using Tadbir.Ins.IDomainService.IServices;
+global using Vita.Application.CommandHandlers;
+global using Vita.Application.Mapper;
+global using Vita.Infrastructure.EmailProvider;
+global using Vita.Persistence.UnitOfWork;
+global using Microsoft.Extensions.DependencyInjection;
+global using Tadbir.Ins.Application.InsuranceRequestApp;
+global using Tadbir.Ins.Application.InsuranceRequestApp.Validation;

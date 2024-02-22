@@ -1,18 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.IdentityModel.Tokens;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Tadbir.Ins.Domain.Models;
-using Tadbir.Ins.IDomainService.IServices;
-using Tadbir.Ins.Shared.Emums;
-using Vita.DomainService.Service;
-using Vita.Persistence.IRepository;
-using Vita.Shared.Result;
-using Vita.Shared.Validation;
+﻿
 
 namespace Tadbir.Ins.DomainService.Services
 {
