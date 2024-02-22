@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.2.0" />
+    <PackageReference Include="VT-Vita.Domain" Version="1.0.1" />
+    <PackageReference Include="VT-Vita.Query.Handler" Version="1.0.1" />
+    <PackageReference Include="VT-Vita.Shared" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tadbir.Ins.Application\Tadbir.Ins.Application.csproj" />
+    <ProjectReference Include="..\Tadbir.Ins.Domain\Tadbir.Ins.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

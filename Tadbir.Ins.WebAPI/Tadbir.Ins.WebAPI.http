@@ -1,0 +1,6 @@
+@Tadbir.Ins.WebAPI_HostAddress = http://localhost:5259
+
+GET {{Tadbir.Ins.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

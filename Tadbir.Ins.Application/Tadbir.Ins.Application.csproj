@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mapster" Version="7.4.0" />
+    <PackageReference Include="VT-Vita.Application" Version="1.0.1" />
+    <PackageReference Include="VT-Vita.Domain" Version="1.0.1" />
+    <PackageReference Include="VT-Vita.IDomainService" Version="1.0.1" />
+    <PackageReference Include="VT-Vita.Infrastructure" Version="1.0.1" />
+    <PackageReference Include="VT-Vita.Persistence" Version="1.0.1" />
+    <PackageReference Include="VT-Vita.Shared" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="InsuranceRequestApp\Event\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tadbir.Ins.Domain\Tadbir.Ins.Domain.csproj" />
+    <ProjectReference Include="..\Tadbir.Ins.IDomainService\Tadbir.Ins.IDomainService.csproj" />
+  </ItemGroup>
+
+</Project>
